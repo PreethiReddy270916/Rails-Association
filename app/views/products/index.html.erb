@@ -1,0 +1,8 @@
+<h1>Listing products </h1>
+<% @products.each do |p| %>
+  <ul><li>
+  	<td><%= link_to p.title,'#' %></td>
+    <td><%= link_to p.description,'#' %></li><td>
+    <td><%= link_to Category.find(p.category_id).name, category_path(p.category_id) %></td>
+</li></ul>
+<% end %>

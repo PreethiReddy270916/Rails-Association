@@ -1,0 +1,120 @@
+@media print {
+    body {-webkit-print-color-adjust: exact;}
+}
+
+body{
+    font-family: Helvetica;
+}
+
+.dark-blue-background{
+    background-color: #1b2947;
+    height: 1610px;
+    color:#fff;
+}
+
+.color-white{
+    color:#fff;
+}
+
+.img-block{
+    border:1px solid white;
+    margin-top: 20px;
+}
+
+.colored{
+    color:#1b2947;
+}
+
+.light-colored{
+    color:#3b3b3b;
+}
+
+.blue{
+    padding: 20px;
+}
+
+.white{
+    padding: 20px;
+}
+
+.mt-mr{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mt-very-small{
+    margin-top: 5px;
+}
+
+.mt-small{
+    margin-top: 10px  
+}
+
+.mt{
+    margin-top: 20px  
+}
+
+.mt-large{
+    margin-top: 50px;
+}
+
+.mr-very-small{
+    margin-left: 10px;
+}
+
+.mr-small{
+    margin-left: 40px;
+}
+
+.mr{
+    margin-left: 100px;
+}
+
+.wrap{
+    width:600px;
+    word-wrap: break-word;
+}
+
+.flex-cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-cont-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-cont-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font-thin{
+    font-weight: 200;
+}
+
+.font-lg{
+    font-size: 20px;
+}
+.font-name{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.icon-wrapper{
+    height:40px;
+    width:40px;
+    background-color: #1b2947;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    color:#fff;
+}
