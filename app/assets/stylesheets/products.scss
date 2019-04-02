@@ -4,6 +4,12 @@
 body{
 	background-color:orange;
 }
+.sidebar{
+
+	width:50%;
+	height:100%;
+	background-color:black;
+}
 img{
 	display : block;
 	float : right;
@@ -18,12 +24,12 @@ input{
 }
 .center{
 	width:50%;
-
-	margin-left:100px;
+    margin-left:100px;
 }
-h1{
+h2{
 	margin-left:200px;
-	margin-top:100px;
+	margin-top:50px;
+	color:white;
 }
 .header{
     background-color:black;
@@ -33,12 +39,8 @@ h1{
     top:0px;
     left:0px;   
 }
-.align{
-	margin-top:100px;
-	display:flex;
-	justify-content:space-between;
-	
-}
+
 .form{
 	margin-top:150px;
-}
+    
+ }
